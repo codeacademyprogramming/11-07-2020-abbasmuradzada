@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <label>Square this number:
+            <input class="form-control" type="number" id="square-input" size="2">
+        </label>
+        <button class="btn btn-info" id="square-button">Calculate</button>
+        <br><br>
+    
+        <form action="">
+            <label>Half this number:
+                <input class="form-control" type="number" id="half-input" size="2">
+            </label>
+            <button class="btn btn-info" type="submit" id="half-button">Calculate</button>
+        </form>
+        <br><br>
+
+        <label>
+            Fraction:
+            <input class="form-control" type="number" id="percent1-input" size="2">
+        </label>
+        <label>
+            Whole:
+            <input class="form-control" type="number" id="percent2-input" size="2">
+        </label>
+        <button class="btn btn-info" id="percent-button">Calculate</button>
+        <br><br>
+    
+        <label>Calculate area of circle with radius:
+            <input class="form-control" type="number" id="area-input" size="2">
+        </label>
+        <button class="btn btn-info" id="area-button">Calculate</button>
+        <br><br>
+        <div id="solution"></div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
